@@ -349,7 +349,6 @@ history = model_conv1d.fit(xTrainGENSIM, yTrainGENSIM,
 pred = model_conv1d.predict(xTestGENSIM) # сделаем предсказание
 recognizeSet(yTestGENSIM, pred, tags, xLen, 0.999)
 ```
-![Иллюстрация к проекту](https://github.com/maximAI/Autoencoder/blob/main/Screenshot_1.jpg)
 [:arrow_up:Оглавление](#5)
 
 [Ноутбук](https://colab.research.google.com/drive/1mGO8sIbEQA8FNLk9Yz4lc_rVArD6LdJY?usp=sharing)
